@@ -6,11 +6,11 @@
 }
 
 h1 {
-    font-size: 50px;
+    font-size: clamp(1.5rem, 4vw, 3rem);
 }
 
 h2 {
-    font-size: 35px;
+    font-size: clamp(1.5rem, 4vw, 3rem);
     margin-top: 100px;
 }
 
@@ -40,5 +40,23 @@ ul li a {
     text-align: centre;
     padding: 30px 60px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+.image-director {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.image-director img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+img {
+    margin-top: 50px;
+    margin-left: 100px;
 }
