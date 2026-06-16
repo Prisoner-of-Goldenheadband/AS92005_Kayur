@@ -44,19 +44,10 @@ ul li a {
 }
 
 .image-director {
-    display: flex;
+    position: relative;
+    max-width: 2400px;
     width: 100%;
     height: auto;
-}
+    left: 1550px;
 
-.image-director img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    object-fit: cover;
-}
-
-img {
-    margin-top: 50px;
-    margin-left: 100px;
 }
