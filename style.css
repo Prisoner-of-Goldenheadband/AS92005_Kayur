@@ -103,8 +103,17 @@ ul li a {
 .solution-gridded-space {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-    gap: 50px;
+    margin:50px;
+    gap: 30px;
     padding: 15px;
     place-items: center;
+}
+
+.resize-i {
+    width: 550px;
+    height: auto;
+    min-width: 200px;
+    min-height: auto;
+    max-width: 100%;
+   overflow: hidden;
 }
