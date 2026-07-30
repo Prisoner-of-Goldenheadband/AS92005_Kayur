@@ -129,21 +129,26 @@ body {
     gap: 50px;
 }
 
+.out {
+    display: grid;
+    grid-template-column: repeat(3, auto);
+}
+
+.out1 {
+    grid-column: 2;
+}
+
 .bullet {
-    margin: 125px;
+    margin: 0px;
     font-size: clamp(1rem, 4vw, 1.5rem);
     font-family: "Poppins", sans-serif;
 }
 
-.bullet-grid {
-    display: grid;
-    gris-template-column: repeat(2, auto);
-}
-
-.grid-1 {
-    grid-column: 1;
-}
-
-.grid-2 {
-    grid-column: 2;
+.bullet-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    list-style-position; inside;
+    padding: 0px;
+    margin: 125px;
 }
