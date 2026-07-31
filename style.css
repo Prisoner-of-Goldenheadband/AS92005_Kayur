@@ -144,7 +144,7 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.bullet-horizontal {
+.bullet-horizontal{
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
